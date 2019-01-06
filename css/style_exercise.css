@@ -1,0 +1,119 @@
+/*------CSS RESET-----*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size:18px;
+    line-height: 1em;
+        /*--------LINE STYLING-------*/
+}
+body{
+    width:75%;
+    max-width: 670px;
+    margin: auto;
+    background: #fafafa;
+    color:#333;
+    font:'Libre Baskerville', serif;
+}
+h1,h2,h3{
+    font-weight:normal;
+    color: #000;
+    
+ 
+}
+.firstcharacter{
+    color: #000;
+    font:'Libre Baskerville', serif;
+    float: left;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-size: 90px;
+
+    
+}
+p,li, blockquote{
+    margin-bottom: 1.5em;
+    line-height: 1.4em;
+}
+h1{
+  font-size: 3.998em;
+    margin-top: 1em;
+    margin-bottom: 0.1em 
+}
+h2{
+    font-size: 2.827em;
+    margin: 1em 0;
+    padding-top: 10px;
+    font-style: italic;
+}
+h3{
+    font-size: 1.999em;
+}
+
+
+
+  
+
+
+
+
+/*----------------BLOCKQUOTE-----------*/
+blockquote{
+    hanging-punctuation: first;
+    text-indent: -0.34em;
+}
+blockquote{
+    
+    padding: 1em 0 4em 0;
+    font-size: 1.4em;
+    color:#999;
+    font-style: italic;
+}
+
+blockquote cite{
+    font-size: 0.75em
+}
+
+/*---------------footer-----------*/
+footer{
+    text-align: center;
+    font-size: 0.75em;
+    line-height: 1.5em;
+    padding: 2em 0
+        
+}
+hr{
+    margin: 3em 0;
+    height: 1px;
+    
+    
+}
+/*--------------version 1 styling----------*/
+.version1 h2{
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/*-------------version 2 styling---------*/
+        
+.version2 { 
+    font-family: 'Open Sans', sans-serif;
+}  
+          
+.introcaps {
+    text-transform: uppercase;
+} 
+
+.para {margin-top: -1.5em;
+    text-indent: 2em}
+/*-------------version 3 styling---------*/
+.version3 {
+    font-family: 'Arvo', serif;
+}         
+.version3 p {
+    font-family:'Open Sans', sans-serif;
+} 
+.version3 blockquote {
+    font-family: 'Arvo', serif;
+} 
